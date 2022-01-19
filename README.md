@@ -1,5 +1,6 @@
 # MalariaCLass
-Binary Image Classification with **Tensorflow** and **EfficientNetB0** pre-trained model <br> 
+Binary Image Classification with **Tensorflow** and **EfficientNetB0** pre-trained model <br>
+And an other copy with with **Tensorflow** and **ResNet50** pre-trained model <br> 
 This repo is a binary classification project that identify cells images as **_parasitized_** or **_uninfected_** cells from the thin blood smear slide images of segmented cells.<br>
 # Prerequisites 
 `Python 3.x`
@@ -10,7 +11,10 @@ size:337.08 MiB<br>
 On Tensorflow Datasets Catalog:[Malaria](https://www.tensorflow.org/datasets/catalog/malaria)<br>
 The National Library of medecin:[NLM](https://lhncbc.nlm.nih.gov/LHC-publications/pubs/MalariaDatasets.html)<br>
 # Model <br>
-EfficientNetB0 pre-trained model with 5,330,571	parameters<br>
+**EfficientNetB0** pre-trained model with 5,330,571	parameters<br>
 its size: 29 MB  <br>
 [Documentation](https://keras.io/api/applications/efficientnet/#efficientnetb0-function)<br>
-![This is an example](https://www.asiaresearchnews.com/sites/default/files/articles_images/20191224_research_pic1.jpg) 
+**ResNet50** pre-trained model with 25,636,712	parameters<br>
+its size: 98 MB  <br>
+[Documentation](https://keras.io/api/applications/resnet/#resnet50-function)<br>
+
